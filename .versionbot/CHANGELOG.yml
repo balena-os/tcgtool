@@ -1,4 +1,20 @@
 - commits:
+    - subject: "pecoff.c: replace security header error with a warning"
+      hash: 6c0f93aceb00d0d98f6a73c2dce8bf89b62d0e59
+      body: |
+        This mirrors the same chage in lib/pecoff.c from efitools commit
+        449cfc99c9453d6321116c12a19f7ceba0bd7fec.
+      footer:
+        Change-Type: patch
+        change-type: patch
+        Signed-off-by: Michal Toman <michalt@balena.io>
+        signed-off-by: Michal Toman <michalt@balena.io>
+      author: Michal Toman
+      nested: []
+  version: 0.1.4
+  title: ""
+  date: 2026-03-11T19:54:02.912Z
+- commits:
     - subject: Add repo.yml file
       hash: a7a913c197727511e3428c5de43c9c8cfa7f3f84
       body: |
